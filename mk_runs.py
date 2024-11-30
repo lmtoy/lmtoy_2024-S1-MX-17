@@ -12,18 +12,28 @@ project="2024-S1-MX-17"
 # for obsnum specific comments and parameters!
 on = {}
 
+on["HerBS-40"] = \
+ [ 123923,]
+
 on["HerBS-73"] = \
  [ 122154, 122155, 122156, 122158, 122159, 122160,]
+
+on["HerBS-75"] = \
+ [ 123915, 123916, 123917,]
 
 # parameters for the first pass of the pipeline (restart=1 is automatically enforced here)
 pars1 = {}
 
+pars1["HerBS-40"] = ""
 pars1["HerBS-73"] = ""
+pars1["HerBS-75"] = ""
 
 # parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}
 
+pars2["HerBS-40"] = ""
 pars2["HerBS-73"] = ""
+pars2["HerBS-75"] = ""
 
 
 if __name__ == "__main__":
