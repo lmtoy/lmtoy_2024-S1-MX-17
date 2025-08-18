@@ -12,29 +12,51 @@ project="2024-S1-MX-17"
 # for obsnum specific comments and parameters!
 on = {}
 
+on["HerBS-155"] = \
+ [ 140124, 140125, 140126, 140127, 140128,]
+
+on["HerBS-39"] = \
+ [ 136966, 136967, 136968, 138460, 138461, 138462, 138464, 138465, 138466,]
+
 on["HerBS-40"] = \
  [ 123923,
    124178, 124179, 124180, 124182, 124183, 124184,]
 
+on["HerBS-42"] = \
+ [ 140024, 140025, 140026, 140027, 140028, 140115, 140116, 140117, 140118, 140119, 140120, 140121,]
+
+on["HerBS-60"] = \
+ [ 139945, 139946, 139947, 139948, 139949, 139950, 139953, 139954, 139955,
+   140035, 140036, 140037, 140038, 140039, 140040,]
 
 on["HerBS-73"] = \
  [ 122154, 122155, 122156, 122158, 122159, 122160,
    124170, 124171, 124172,]
 
 on["HerBS-75"] = \
- [ 123915, 123916, 123917,]
+ [ 123915, 123916, 123917,
+   140132, 140133, 140134, 140135, 140136, 140137,
+   140195, 140196, 140197, 140198, 140199, 140200, 140203, 140204,-140205,]
 
 # parameters for the first pass of the pipeline (restart=1 is automatically enforced here)
 pars1 = {}
 
+pars1["HerBS-155"] = "speczoom=109,3"
+pars1["HerBS-39"] = "speczoom=109,3"
 pars1["HerBS-40"] = ""
+pars1["HerBS-42"] = "speczoom=107,3"
+pars1["HerBS-60"] = "speczoom=108,3"
 pars1["HerBS-73"] = ""
-pars1["HerBS-75"] = ""
+pars1["HerBS-75"] = "speczoom=89,3"
 
 # parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}
 
+pars2["HerBS-155"] = ""
+pars2["HerBS-39"] = ""
 pars2["HerBS-40"] = ""
+pars2["HerBS-42"] = ""
+pars2["HerBS-60"] = ""
 pars2["HerBS-73"] = ""
 pars2["HerBS-75"] = ""
 
