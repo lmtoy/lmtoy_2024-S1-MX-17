@@ -3,3 +3,79 @@
 #123456__1       extra bad beam     # pix_list=-4,-13,14,15
 #123456__0       standard           # pix_list=-13
 #
+
+# HerBS-73
+122154		remove bad cb 3/0,3/4	#badcb=3/0,3/4
+122156		remove bad cb 3/0	#badcb=3/0
+122159		remove bad cb 3/0,3/3	#badcb=3/0
+124170		remove bad cb 3/3	#badcb=3/3
+124171		remove bad cb 1/2	#badcb=1/2
+124172		remove bad cb 3/0	#badcb=3/0
+
+# HerBS-75
+123917		remove bad cb 3/0	#badcb=3/0
+140132		remove bad cb 3/0	#badcb=3/0
+140136		remove bad cb 3/0	#badcb=3/0
+140197		remove bad cb 3/0	#badcb=3/0
+140200		remove bad cb 3/0	#badcb=3/0
+140197		chassis 0 misisng	#qagrade=-2
+140198		chassis 0 missing	#qagrade=-2
+140199		chassis 0 missing	#qagrade=-2
+140200		chassis 0 missing	#qagrade=-2
+140203		chassis 0 missing	#qagrade=-2
+140204		chassis 0 missing	#qagrade=-2
+140847		chassis 0 missing	#qagrade=-2
+140848		chassis 0 missing	#qagrade=-2
+140849		chassis 0 missing	#qagrade=-2
+140850		chassis 0 missing	#qagrade=-2
+140851		chassis 0 missing	#qagrade=-2
+140852		chassis 0 missing	#qagrade=-2
+140853		chassis 0 missing	#qagrade=-2
+140856		chassis 0 missing	#qagrade=-2
+140857		chassis 0 missing	#qagrade=-2
+140858		chassis 0 missing	#qagrade=-2
+140860		chassis 0 missing	#qagrade=-2
+140861		chassis 0 missing	#qagrade=-2
+140864		chassis 0 missing	#qagrade=-2
+140866		chassis 0 missing	#qagrade=-2
+140867		chassis 0 missing	#qagrade=-2
+140868		chassis 0 missing	#qagrade=-2
+140869		chassis 0 missing	#qagrade=-2
+
+# HerBS-40
+124178		remove bad cb 3/0	#badcb=3/0
+124180		remove bad cb 3/0	#badcb=3/0
+140990		chassis 0 missing	#qagrade=-2
+140991 		chassis 0 missing	#qagrade=-2
+140992		chassis 0 missing	#qagrade=-2
+
+# HerBS-39	
+136966		remove bad cb 3/0	#badcb=3/0
+136967		remove bad cb 3/4	#badcb=3/4
+136968		remove bad cb 3/0	#badcb=3/0
+138460		bad chassis 3 		#qagrade=-2
+138461		bad chassis 3		#qagrade=-2
+138462		bad chassis 3 		#badcb=3/0,3/4 qagrade=-2
+138466		remove bad cb 2/3,3/0,3/3	#badcb=2/3,3/0,3/3
+
+# HerBS-60
+139445		remove badcb 3/0	#badcb=3/0
+139448		remove badcb 3/0	#badcb=3/0
+139954		remove badcb 3/0	#badcb=3/0
+140036		remove badcb 3/0	#badcb=3/0
+140037		remove badcb 3/4	#badcb=3/4
+140038		remove badcb 3/0,3/4	#badcb=3/0,3/4
+140040		remove badcb 3/0	#badcb=3/0
+
+#HerBS-42
+140025		remove bad cb 3/4	#badcb=3/4
+140115		remove bad cb 3/4	#badcb=3/4
+140116		remove bad cb 3/0	#badcb=3/0
+
+#HerBS-155
+140838		chassis 0 missing	#qagrade=-2
+140839		chassis 0 missing	#qagrade=-2
+140840		chassis 0 missing	#qagrade=-2
+140841		chassis 0 missing	#qagrade=-2
+140842		chassis 0 missing	#qagrade=-2
+140843		chassis 0 missing 	#qagrade=-2
