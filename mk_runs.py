@@ -43,7 +43,8 @@ on["HerBS-75"] = \
 
 
 on["HerBS-99"] = \
- [ 147039, 147040, 147041, # 2025-nov-17
+ [ 147039, 147040, 147041, # 2025-nov-15
+   147147, 147148, 147149, 147151, 147152, 147153, 147155, 147156, 147157, # 2025-nov-16
  ]
 # parameters for the first pass of the pipeline (restart=1 is automatically enforced here)
 pars1 = {}
