@@ -59,7 +59,7 @@ pars1["HerBS-42"] = "speczoom=107,3 qagrade=3"
 pars1["HerBS-60"] = "speczoom=108,3 qagrade=3"
 pars1["HerBS-73"] = "qagrade=3"
 pars1["HerBS-75"] = "speczoom=89,3 qagrade=3"
-pars1["HerBS-99"] = ""
+pars1["HerBS-99"] = "speczoom=104,3 qagrade=3"
 
 # parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}

@@ -79,3 +79,9 @@
 140841		chassis 0 missing	#qagrade=-2
 140842		chassis 0 missing	#qagrade=-2
 140843		chassis 0 missing 	#qagrade=-2
+
+# HerBS-99
+147039_147426   [31/31]                 #qagrade=0
+147152          remove badcb 3/0        #badcb=3/0
+147292          remove badcb 3/0        #badcb=3/0
+147424          remove badcb 3/0        #badcb=3/0
