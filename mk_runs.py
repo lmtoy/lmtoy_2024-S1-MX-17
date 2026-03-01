@@ -49,6 +49,9 @@ on["HerBS-99"] = \
    147412, 147413, 147414, 147415, 147416, 147417, 147418, 147419, 147420, 147423, 147424, 147425, 147426, # 2025-nov-18
 ]
 
+on["HerBS-130"] = \
+ [153258,153259,153260,153262,153263,153264,153266,153267,153268, # 2025-mar-01
+ ]
 # parameters for the first pass of the pipeline (restart=1 is automatically enforced here)
 pars1 = {}
 
@@ -60,6 +63,7 @@ pars1["HerBS-60"] = "speczoom=108,3 qagrade=3"
 pars1["HerBS-73"] = "qagrade=3"
 pars1["HerBS-75"] = "speczoom=89,3 qagrade=3"
 pars1["HerBS-99"] = "speczoom=104,3 qagrade=3"
+pars1["HerBS-130"] = ""
 
 # parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}
@@ -72,7 +76,7 @@ pars2["HerBS-60"] = ""
 pars2["HerBS-73"] = ""
 pars2["HerBS-75"] = ""
 pars2["HerBS-99"] = ""
-
+pars2["HerBS-130"] = ""
 
 if __name__ == "__main__":
     runs.mk_runs(project, on, pars1, pars2, None, sys.argv)
