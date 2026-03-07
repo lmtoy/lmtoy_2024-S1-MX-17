@@ -38,8 +38,8 @@ on["HerBS-73"] = \
 on["HerBS-75"] = \
  [ 123915, 123916, 123917,
    140132, 140133, 140134, 140135, 140136, 140137,
-   140195, 140196, -140197, -140198, -140199, -140200, -140203, -140204,-140205,
-   -140847, -140848, 1-40849, -140850, -140851, -140852, -140856, -140857, -140858, -140859, -140860, -140861, -140864, -140865, -140866, -140867, -140868, -140869,]
+   -140195, -140196, -140197, -140198, -140199, -140200, -140203, -140204,-140205,
+  -140847, -140848, -140849, -140850, -140851, -140852, -140856, -140857, -140858, -140859, -140860, -140861, -140864, -140865, -140866, -140867, -140868, -140869,]
 
 
 on["HerBS-99"] = \
@@ -55,15 +55,15 @@ on["HerBS-130"] = \
 # parameters for the first pass of the pipeline (restart=1 is automatically enforced here)
 pars1 = {}
 
-pars1["HerBS-155"] = "speczoom=109,3"
+pars1["HerBS-155"] = "speczoom=109,3 qagrade=3"
 pars1["HerBS-39"] = "speczoom=109,3 qagrade=3"
 pars1["HerBS-40"] = "qagrade=3"
-pars1["HerBS-42"] = "speczoom=107,3 qagrade=3"
-pars1["HerBS-60"] = "speczoom=108,3 qagrade=3"
+pars1["HerBS-42"] = "speczoom=80,3 qagrade=3"
+pars1["HerBS-60"] = "speczoom=80,3 qagrade=3"
 pars1["HerBS-73"] = "qagrade=3"
 pars1["HerBS-75"] = "speczoom=89,3 qagrade=3"
-pars1["HerBS-99"] = "speczoom=104,3 qagrade=3"
-pars1["HerBS-130"] = ""
+pars1["HerBS-99"] = "qagrade=3"
+pars1["HerBS-130"] = "qagrade=3"
 
 # parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}
