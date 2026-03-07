@@ -34,9 +34,11 @@
 140856		chassis 0 missing	#qagrade=-2
 140857		chassis 0 missing	#qagrade=-2
 140858		chassis 0 missing	#qagrade=-2
+140859          chassis 0 missing       #qagrade=-2
 140860		chassis 0 missing	#qagrade=-2
 140861		chassis 0 missing	#qagrade=-2
 140864		chassis 0 missing	#qagrade=-2
+140865          chassis 0 missing       #qagrade=-2
 140866		chassis 0 missing	#qagrade=-2
 140867		chassis 0 missing	#qagrade=-2
 140868		chassis 0 missing	#qagrade=-2
@@ -85,3 +87,8 @@
 147152          remove badcb 3/0        #badcb=3/0
 147292          remove badcb 3/0        #badcb=3/0
 147424          remove badcb 3/0        #badcb=3/0
+
+# HerBS-130
+153260         remove badcb 3/0         #badcb=3/0
+153262         remove badcb 1/0         #badcb=1/0
+153268         remove badcb 3/0         #badcb=3/0
